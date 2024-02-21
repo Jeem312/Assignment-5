@@ -74,7 +74,7 @@
             </div>
             <div class="border-r-2 border-r-gray-400"></div>
             <div>
-               <h2 class="text-3xl font-bold">NEW15</h2>
+               <h2 id="NEW15" class="text-3xl font-bold">NEW15</h2>
               <p class="text-gray-400">  Coupon Code</p>
             </div></div>
     </div>
@@ -86,7 +86,7 @@
             </div>
             <div class="border-r-2 border-r-gray-400"></div>
             <div class="">
-               <h2 class="text-3xl font-bold">Couple 20</h2>
+               <h2 id="Couple 20" class="text-3xl font-bold">Couple 20</h2>
               <p class="text-gray-400 text-center">  Coupon Code</p>
             </div></div>
    </div>
@@ -157,7 +157,7 @@
    <div class="flex mt-6 justify-end">  <div class="bg-[#0307121A] rounded-lg p-3"><img src="images/Vector.png" alt=""></div>  </div>
       <div class="mt-6 space-y-3">
         <div class="flex justify-around">
-        <button  class="button btn bg-[#F7F8F8]"> A2</button>
+       <button  class="button btn bg-[#F7F8F8]"> A2</button>
         <button  class="button btn bg-[#F7F8F8]"> A1</button>
         <button  class="button btn bg-[#F7F8F8]"> A3</button>
         <button  class="button btn bg-[#F7F8F8]"> A4</button>
@@ -167,6 +167,18 @@
         <button  class="button btn bg-[#F7F8F8]">B2</button>
         <button  class="button btn bg-[#F7F8F8]">B3</button>
         <button  class="button btn bg-[#F7F8F8]">B4</button>
+  </div>
+      <div class="flex justify-around">
+        <button  class="button btn bg-[#F7F8F8]">C1</button>
+        <button  class="button btn bg-[#F7F8F8]">C2</button>
+        <button  class="button btn bg-[#F7F8F8]">C3</button>
+        <button  class="button btn bg-[#F7F8F8]">C4</button>
+  </div>
+      <div class="flex justify-around">
+        <button  class="button btn bg-[#F7F8F8]">D1</button>
+        <button  class="button btn bg-[#F7F8F8]">D2</button>
+        <button  class="button btn bg-[#F7F8F8]">D3</button>
+        <button  class="button btn bg-[#F7F8F8]">D4</button>
   </div>
  </div>
       </div>
@@ -196,9 +208,9 @@
       </p>
     </div>
     </div>
-    <div class="join ">
-      <input class="input input-bordered join-item" placeholder="Have any copupon?"/>
-      <button class="btn join-item rounded-r-full bg-[#1DD100] text-white">Apply</button>
+    <div id="input-div" class="join ">
+      <input id="input-value" class="input input-bordered join-item" placeholder="Have any coupon?"/>
+      <button onclick="hideInput()" class="btn join-item rounded-r-full bg-[#1DD100] text-white">Apply</button>
     </div>
     <div class="flex justify-between ">
       <div>  <p>Grand Total</p> </div>

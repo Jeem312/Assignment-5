@@ -49,3 +49,13 @@ for(const button of buttons){
            }
           
     })}
+    function hideInput(){
+       const couponHide = getInputValueById('input-value');
+        
+        if(couponHide === 'NEW15' || couponHide === 'Couple 20' ) {
+            hideId('input-div')
+        }
+    else{
+        alert('provide right coupon code')
+    }
+    }
