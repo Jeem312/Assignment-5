@@ -37,7 +37,7 @@
     <a class="btn btn-ghost text-2xl font-extrabold">P-Ticket</a>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1 space-x-3 text-gray-400">
+    <ul class="menu menu-horizontal px-1 space-x-3 text-gray-600">
      <li>Home</li>
      <li>About</li>
      <li>Destination</li>
@@ -180,6 +180,18 @@
         <button  class="button btn bg-[#F7F8F8]">D3</button>
         <button  class="button btn bg-[#F7F8F8]">D4</button>
   </div>
+      <div class="flex justify-around">
+        <button  class="button btn bg-[#F7F8F8]">F1</button>
+        <button  class="button btn bg-[#F7F8F8]">F2</button>
+        <button  class="button btn bg-[#F7F8F8]">F3</button>
+        <button  class="button btn bg-[#F7F8F8]">F4</button>
+  </div>
+      <div class="flex justify-around">
+        <button  class="button btn bg-[#F7F8F8]">G1</button>
+        <button  class="button btn bg-[#F7F8F8]">G2</button>
+        <button  class="button btn bg-[#F7F8F8]">G3</button>
+        <button  class="button btn bg-[#F7F8F8]">G4</button>
+  </div>
  </div>
       </div>
      <div class="border-r-2 border-r-gray-200"></div>
@@ -204,7 +216,7 @@
      <div>  <p>Total price</p> </div>
     <div>
       <p>
-        <p>BDT <span>0</span></p>
+        <p>BDT <span id="total-price">0</span></p>
       </p>
     </div>
     </div>
@@ -216,13 +228,13 @@
       <div>  <p>Grand Total</p> </div>
      <div>
        <p>
-         <p>BDT <span>0</span></p>
+         <p>BDT <span id="grand-price">0</span></p>
        </p>
      </div>
      </div>
    </div>
   <!-- modal section -->
-  <!-- Open the modal using ID.showModal() method -->
+  
 <button class="btn w-full bg-[#1DD100] text-white mt-6" onclick="my_modal_1.showModal()">Next</button>
 <dialog id="my_modal_1" class="modal">
   <div class="modal-box">
