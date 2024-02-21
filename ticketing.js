@@ -45,6 +45,7 @@ for(const button of buttons){
             const totalCost = getTextAndConvertParseIntElementById('total-price');
             const totalPrice = totalCost + 550;
             setInnerTextById('total-price', totalPrice);  
+            setInnerTextById('grand-price', totalPrice);  
     
 
            }
