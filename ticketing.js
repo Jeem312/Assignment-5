@@ -13,18 +13,39 @@ for(const button of buttons){
         if(clickCount <= 4){
 
             button.style.backgroundColor = '#1DD100'; 
+            // left seat count
             const seat = getTextAndConvertParseIntElementById('left-seat');
             const leftSeat = seat - 1;
             setInnerTextById('left-seat', leftSeat);
-
+        //   selectedSeat count
             const countSeat = getTextAndConvertParseIntElementById('selected-seat');
             const selectedSeat = countSeat + 1;
             setInnerTextById('selected-seat', selectedSeat);
+
+            // append selectedSeat information
+                const createDiv = document.createElement('div')
+                const listIteam1 = document.createElement('p');
+                listIteam1.textContent = button.innerText; 
+
+                const listIteam2 = document.createElement('p');
+                listIteam2.textContent = 'economic';
+
+                const listIteam3 = document.createElement('p');
+                 listIteam3.textContent = 550;
+                 const emptyDiv = document.getElementById('empty-div');
+                 
+
+            emptyDiv.appendChild(listIteam1);
+            emptyDiv.appendChild(listIteam2);
+            emptyDiv.appendChild(listIteam3);
+            
+       
+
+
 
            }
            else{
             alert('You have selected maximum limit')
            }
           
-    })
-}
+    })}

@@ -15,3 +15,4 @@ function getTextAndConvertParseIntElementById(elementId){
     const elementValueText = element.innerText;
     const  value = parseInt(elementValueText);
     return value}
+    
